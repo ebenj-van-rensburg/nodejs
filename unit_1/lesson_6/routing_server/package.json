@@ -1,0 +1,14 @@
+{
+  "name": "routing_server",
+  "version": "1.0.0",
+  "description": "Server example built to handle html routing for basic websites.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eben Janse van Rensburg",
+  "license": "ISC",
+  "dependencies": {
+    "http-status-codes": "^2.3.0"
+  }
+}

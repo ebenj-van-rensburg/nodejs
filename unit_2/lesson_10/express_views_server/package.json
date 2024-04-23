@@ -1,0 +1,16 @@
+{
+  "name": "express_views_server",
+  "version": "1.0.0",
+  "description": "Express.js server example using views and routing",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eben Janse van Rensburg",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}

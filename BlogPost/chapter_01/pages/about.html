@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            text-align: center;
+            color: #ccc;
+            background: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Eben Janse van Rensburg</h1>
+    <h3 id="clock"></h3>
+    <script>
+        let clock = document.getElementById("clock")
+        function time() {
+            var d = new Date();
+            var s = d.getSeconds();
+            var m = d.getMinutes();
+            var h = d.getHours();
+            clock.textContent =
+                ("Local Time: ") + ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2);
+        }
+
+        setInterval(time, 1000);
+    </script>
+</body>
+
+</html>

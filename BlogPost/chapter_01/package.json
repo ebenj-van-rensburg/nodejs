@@ -1,0 +1,12 @@
+{
+  "name": "blogpost",
+  "version": "1.0.0",
+  "description": "Code College Blogpost tutorial: Chapter 01 Intro to Node.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Eben Janse van Rensburg",
+  "license": "ISC"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "blogpost",
+  "version": "1.0.0",
+  "description": "Code College Blogpost tutorial: Chapter 04 Templating Engines (EJS)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon mani.js"
+  },
+  "author": "Eben Janse van Rensburg",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

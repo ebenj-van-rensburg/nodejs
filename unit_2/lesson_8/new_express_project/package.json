@@ -1,0 +1,14 @@
+{
+  "name": "new_express_project",
+  "version": "1.0.0",
+  "description": "First example server using express.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eben Janse van Rensburg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

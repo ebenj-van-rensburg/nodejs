@@ -1,0 +1,26 @@
+{
+  "name": "blogpost",
+  "version": "1.0.0",
+  "description": "Code College Blogpost tutorial: Chapter 11 User auth w\/ Express Sessions",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "author": "Eben Janse van Rensburg",
+  "license": "ISC",
+  "dependencies": {
+  
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
